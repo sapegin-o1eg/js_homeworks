@@ -1,0 +1,35 @@
+.mymodal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.mymodal-window {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 20%;
+}
+
+.mymodal-msg {
+    padding: 5px;
+}
+
+.close-btn {
+    position: absolute;
+    bottom: 2px;
+}
